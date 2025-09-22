@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+
+# IDE files
+.idea
+*.iml
+.vscode
+
+# Build artifacts (except the final JAR)
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+target/surefire-reports
+target/test-classes
+
+# Keep only the JAR with dependencies
+target/*
+!target/submission-checker-*-jar-with-dependencies.jar
+
+# Documentation and development files
+README.md
+*.md
+docs/
+
+# GitHub workflows
+.github/
+
+# Test files
+src/test/
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Temporary files
+*.tmp
+*.log
